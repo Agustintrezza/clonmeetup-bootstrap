@@ -1,0 +1,16 @@
+{
+  "name": "meetiagustintrezza",
+  "version": "1.0.0",
+  "description": "Proyecto utilizando sass con bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss --css build/css/style.css --content index.html --output build/css/meeti.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.52.3"
+  }
+}
